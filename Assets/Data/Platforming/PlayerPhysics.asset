@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 499ad10dba9cfd048b5ba35ef81870c9, type: 3}
+  m_Name: PlayerPhysics
+  m_EditorClassIdentifier: 
+  AccelerationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.12774658
+      value: 3.284958
+      inSlope: 0
+      outSlope: -0.4015364
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 8.03392
+      value: 0.007751465
+      inSlope: -0.4015364
+      outSlope: 0
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MaxSpeed: 8
+  Traction: 0.9
+  AirControl: 0.25
+  Gravity: 35
+  JumpForce: 15
+  PeakJumpGravity: 0.517
+  JumpCap: 0.736
+  airTurn: 1
+  MaxFallSpeed: 20
+  CyoteTime: 5

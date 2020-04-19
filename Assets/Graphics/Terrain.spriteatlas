@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Terrain
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: d7b01320f06109d45be0bdafe2ba7a9a, type: 3}
+    - {fileID: 2800000, guid: 195c27f0320adeb4bbe5dbb32b4d937d, type: 3}
+    - {fileID: 2800000, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+    totalSpriteSurfaceArea: 68775
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 1354748404808834780, guid: d7b01320f06109d45be0bdafe2ba7a9a, type: 3}
+  - {fileID: -1036066879870878019, guid: d7b01320f06109d45be0bdafe2ba7a9a, type: 3}
+  - {fileID: -2455709030275296481, guid: d7b01320f06109d45be0bdafe2ba7a9a, type: 3}
+  - {fileID: 6539613384987498625, guid: d7b01320f06109d45be0bdafe2ba7a9a, type: 3}
+  - {fileID: 1337111784965413865, guid: d7b01320f06109d45be0bdafe2ba7a9a, type: 3}
+  - {fileID: -8010901481546657752, guid: d7b01320f06109d45be0bdafe2ba7a9a, type: 3}
+  - {fileID: 5197083062642486233, guid: d7b01320f06109d45be0bdafe2ba7a9a, type: 3}
+  - {fileID: -6736476283110157903, guid: d7b01320f06109d45be0bdafe2ba7a9a, type: 3}
+  - {fileID: 1626843094542626653, guid: d7b01320f06109d45be0bdafe2ba7a9a, type: 3}
+  - {fileID: 8882984341212002085, guid: d7b01320f06109d45be0bdafe2ba7a9a, type: 3}
+  - {fileID: 8494494366028442071, guid: d7b01320f06109d45be0bdafe2ba7a9a, type: 3}
+  - {fileID: -4680934586623183899, guid: d7b01320f06109d45be0bdafe2ba7a9a, type: 3}
+  - {fileID: 4802530450178700827, guid: d7b01320f06109d45be0bdafe2ba7a9a, type: 3}
+  - {fileID: -8662075319188904508, guid: d7b01320f06109d45be0bdafe2ba7a9a, type: 3}
+  - {fileID: -7351151218193155480, guid: d7b01320f06109d45be0bdafe2ba7a9a, type: 3}
+  - {fileID: 6984961943659404105, guid: d7b01320f06109d45be0bdafe2ba7a9a, type: 3}
+  - {fileID: 296479662565582937, guid: 195c27f0320adeb4bbe5dbb32b4d937d, type: 3}
+  - {fileID: -4189957787168593601, guid: 195c27f0320adeb4bbe5dbb32b4d937d, type: 3}
+  - {fileID: 3604182692263377810, guid: 195c27f0320adeb4bbe5dbb32b4d937d, type: 3}
+  - {fileID: 7672759098259192623, guid: 195c27f0320adeb4bbe5dbb32b4d937d, type: 3}
+  - {fileID: 7108930464169661370, guid: 195c27f0320adeb4bbe5dbb32b4d937d, type: 3}
+  - {fileID: -5062486230716756072, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  - {fileID: -4684333735789482159, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  - {fileID: -8377130690987618698, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  - {fileID: 7223950226953391895, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  - {fileID: 1561205615984820651, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  - {fileID: -537749870668139058, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  - {fileID: -6833445872158455971, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  - {fileID: 4099902767569298868, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  - {fileID: 3825752689756085014, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  - {fileID: 857779327251732012, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  - {fileID: -7326330765846486680, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  - {fileID: -7369953315678303813, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  - {fileID: -6100061461012067082, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  - {fileID: -7956832237065629149, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  - {fileID: 8933607801220796041, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  - {fileID: -8955812619259062215, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  - {fileID: -6765242926017629268, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  - {fileID: -8637159173488095169, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  - {fileID: 5264979163374914166, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  - {fileID: -47299315171432025, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  - {fileID: 9045646400296435942, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  - {fileID: 7477827516038983822, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  - {fileID: 3930821917377472818, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  - {fileID: 4680653795402065389, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  - {fileID: 4753258692078137619, guid: 6cbee97d9a1affb419f7b960d64042a0, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Graphics_9
+  - Graphics_8
+  - Graphics_14
+  - Graphics_10
+  - Graphics_11
+  - Graphics_12
+  - Graphics_13
+  - WaterTank
+  - Graphics_5
+  - Graphics_4
+  - Graphics_7
+  - Graphics_6
+  - Graphics_1
+  - Graphics_0
+  - Graphics_3
+  - Graphics_2
+  - Horse_3
+  - Horse_2
+  - Horse_1
+  - Horse_0
+  - Horse_4
+  - Tiles_3
+  - Tiles_2
+  - Tiles_1
+  - Tiles_0
+  - Tiles_7
+  - Tiles_6
+  - Tiles_5
+  - Tiles_4
+  - Tiles_9
+  - Tiles_8
+  - Tiles_23
+  - Tiles_22
+  - Tiles_21
+  - Tiles_20
+  - Tiles_16
+  - Tiles_17
+  - Tiles_14
+  - Tiles_15
+  - Tiles_24
+  - Tiles_12
+  - Tiles_13
+  - Tiles_10
+  - Tiles_11
+  - Tiles_18
+  - Tiles_19
+  m_Tag: Terrain
+  m_IsVariant: 0
