@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Valve : MonoBehaviour, ICoolable, IStrikeAble
 {
-    int count = 0;
+    public int count = 0;
 
     public GameObject[] targets;
     public SpriteRenderer[] pipes1;
