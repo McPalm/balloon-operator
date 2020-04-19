@@ -7161,6 +7161,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5021112707262607255, guid: 4fcb3b16242a5f34c853b891b7072366, type: 3}
+      propertyPath: m_Text
+      value: Stage <size=32>3</size> / 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6495442231780361792, guid: 4fcb3b16242a5f34c853b891b7072366, type: 3}
       propertyPath: m_AnchorMin.x
       value: 0
