@@ -9,7 +9,14 @@ public class StageAdvancer : MonoBehaviour
 
     public void NextStage()
     {
-        int index = SceneManager.GetActiveScene().buildIndex + 1;
+        int index = SceneManager.GetActiveScene().buildIndex;
+
+        if (index == 0 && Unlocks.HighestCleared == 0)
+            index++;
+
+        
+
+        index += 1;
         index %= SceneManager.sceneCountInBuildSettings;
         SceneManager.LoadScene(index);
     }

@@ -26,7 +26,10 @@ public class Paralax : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        offset += Ship.Speed * Time.deltaTime * speedFactor;
+        if (Ship)
+            offset += Ship.Speed * Time.deltaTime * speedFactor;
+        else
+            offset += Time.deltaTime * speedFactor;
         root.transform.localPosition = startValue + Vector3.right * (offset % width);
     }
 }

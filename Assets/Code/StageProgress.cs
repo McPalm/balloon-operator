@@ -38,6 +38,7 @@ public class StageProgress : MonoBehaviour
         ship.enabled = false;
         VictorySplash.SetActive(true);
         enabled = false;
+        Unlocks.ClearStage(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex - 1);
         GetComponent<StageAdvancer>().NextStageWithDelay(3f);
     }
 }
