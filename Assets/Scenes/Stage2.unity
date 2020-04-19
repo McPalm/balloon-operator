@@ -2600,14 +2600,14 @@ RectTransform:
   m_GameObject: {fileID: 275038380}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 944296652}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.686, y: 0.20999998}
+  m_AnchoredPosition: {x: -3.79, y: 0.34}
   m_SizeDelta: {x: 23.797539, y: 1.5027199}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &275038382
@@ -2631,7 +2631,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 1
+    m_FontSize: 2
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -2642,7 +2642,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Water reduces overheat and makes engines go faster
+  m_Text: <b><size=3><color=#90C2FF>Water</color></size></b> keeps engines <b><size=3>Cool</size>
+    and operate</b> <b><size=3><i>Faster</i></size></b>
 --- !u!222 &275038383
 CanvasRenderer:
   m_ObjectHideFlags: 0
