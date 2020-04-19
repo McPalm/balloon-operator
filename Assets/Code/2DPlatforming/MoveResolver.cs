@@ -16,6 +16,20 @@ public class MoveResolver : MonoBehaviour
         if (hit)
         {
             TouchingWall = distance.x != 0f && Mathf.Sign(distance.x) == Mathf.Sign(hit.point.x - transform.position.x);
+            // try again slightly higher up
+            var hit2 = Physics2D.BoxCast(
+                origin: transform.position+ new Vector3(0f, .01f), 
+                size: Vector2.one * radius, 
+                angle: 0f, 
+                direction: distance + new Vector2(0f, Mathf.Abs(distance.x)), 
+                distance: distance.magnitude, 
+                layerMask: Solid);
+            if (!hit2)
+            {
+                transform.position += (Vector3)distance + new Vector3(0f, Mathf.Abs(distance.x));
+                return (false, 0, true);
+            }
+
             if (TouchingWall)
             {
                 TouchingWallDirection = (int)Mathf.Sign(hit.point.x - transform.position.x);
