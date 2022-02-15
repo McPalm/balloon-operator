@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8091800267417680011
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4233424844187378194, guid: 5d2c6001a660ac0418baff9bbbfd7426, type: 3}
+      propertyPath: JumpSound
+      value: 
+      objectReference: {fileID: 8300000, guid: d97b48e03175c214ea0bf3d919c4e8d6, type: 3}
+    - target: {fileID: 4233424844187378195, guid: 5d2c6001a660ac0418baff9bbbfd7426, type: 3}
+      propertyPath: player
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233424844187378199, guid: 5d2c6001a660ac0418baff9bbbfd7426, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233424844187378199, guid: 5d2c6001a660ac0418baff9bbbfd7426, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233424844187378199, guid: 5d2c6001a660ac0418baff9bbbfd7426, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233424844187378199, guid: 5d2c6001a660ac0418baff9bbbfd7426, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233424844187378199, guid: 5d2c6001a660ac0418baff9bbbfd7426, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233424844187378199, guid: 5d2c6001a660ac0418baff9bbbfd7426, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233424844187378199, guid: 5d2c6001a660ac0418baff9bbbfd7426, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233424844187378199, guid: 5d2c6001a660ac0418baff9bbbfd7426, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233424844187378199, guid: 5d2c6001a660ac0418baff9bbbfd7426, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233424844187378199, guid: 5d2c6001a660ac0418baff9bbbfd7426, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233424844187378199, guid: 5d2c6001a660ac0418baff9bbbfd7426, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4233424844187378200, guid: 5d2c6001a660ac0418baff9bbbfd7426, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1392250904884122951, guid: 195c27f0320adeb4bbe5dbb32b4d937d, type: 3}
+    - target: {fileID: 4233424844187378204, guid: 5d2c6001a660ac0418baff9bbbfd7426, type: 3}
+      propertyPath: m_Name
+      value: Starskipper
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d2c6001a660ac0418baff9bbbfd7426, type: 3}

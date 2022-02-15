@@ -9,7 +9,7 @@ public class CameraFollow : MonoBehaviour
     float slowEase = 1f;
     float Ease => Mathf.Min(ease, slowEase);
 
-    public Mobile Follow;
+    public Mobile[] Follow;
     public Transform CameraOffsetRoot;
     Vector3 Offset=> CameraOffsetRoot.localPosition;
     Vector3 DesiredOffset;
@@ -21,7 +21,7 @@ public class CameraFollow : MonoBehaviour
 
     private void Start()
     {
-        Snap();
+        // Snap();
         DesiredOffset = Offset;
     }
 
@@ -29,12 +29,18 @@ public class CameraFollow : MonoBehaviour
     void FixedUpdate()
     {
         CameraOffsetRoot.localPosition = DesiredOffset;
-        ease = Follow.Suspend ? .1f : ease + .1f;
+        ease = ease + .1f;
         ease = Mathf.Clamp01(ease);
         slowEase += .03f;
         slowEase = Mathf.Clamp01(slowEase);
 
-
+        Vector3 average = Vector3.zero;
+        for(int i = 0; i < Follow.Length; i++)
+        {
+            average += Follow[i].transform.position;
+        }
+        average *= 1f / Follow.Length;
+            /*
         if (Follow.Grounded || Follow.Suspend)
             plane = Follow.Suspend ? Follow.transform.position.y : Follow.transform.position.y - Follow.radius;
         else
@@ -46,18 +52,12 @@ public class CameraFollow : MonoBehaviour
         y = Mathf.Clamp(y, MinY - Offset.y, MaxY - Offset.y);
         var x = Mathf.Clamp(Follow.transform.position.x, MinX - Offset.x, MaxX - Offset.x);
 
-
-        transform.position = Vector3.Lerp(transform.position,  new Vector3(x, y), Ease);
+    */
+        transform.position = new Vector3(average.x, 0f);//Vector3.Lerp(transform.position,  new Vector3(x, y), Ease);
     }
 
     int count = 0;
 
-    
-
-    public void Snap()
-    {
-        transform.position = Follow.transform.position;
-    }
 
     IEnumerator ShiftFocusRoutine(Vector2 direction)
     {

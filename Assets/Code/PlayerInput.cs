@@ -11,8 +11,15 @@ public class PlayerInput : MonoBehaviour
     void Start()
     {
         InputToken = new InputToken();
-        GetComponent<PlatformingCharacter>().InputToken = InputToken;
-        GetComponent<Repair>().InputToken = InputToken;
+        var pc = GetComponent<PlatformingCharacter>();
+        if(pc)
+            pc.InputToken = InputToken;
+        var rep = GetComponent<Repair>();
+        if(rep)
+            rep.InputToken = InputToken;
+        var mob = GetComponent<Mobile2D>();
+        if (mob)
+            mob.InputToken = InputToken;
     }
 
     public void HandleMove(InputAction.CallbackContext e)
